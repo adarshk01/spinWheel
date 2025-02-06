@@ -7,7 +7,10 @@ import { Experience } from "./components/Experience";
 function App() {
   return (
     <div className="h-screen">
-      <Canvas shadows>
+      <Canvas
+        shadows
+        // camera={{ position: [40, -5, -0] }}
+      >
         <Experience />
       </Canvas>
     </div>
